@@ -49,7 +49,7 @@ function outputData(person) {
     row.classList.add('austria');
   }
   // Add a class to Autho*
-  if ((new RegExp(/autho/gi)).test(person.profession)) {
+  if ((new RegExp(/author/gi)).test(person.profession)) {
     row.classList.add('autho');
   }
   // Add a class to American*
