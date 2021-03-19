@@ -1,16 +1,20 @@
 body {
-  padding: 0 30px 0 30px;
-}
-
-h1 {
+  padding: 10px 30px 0 30px;
 }
 
 #h1border {
   border: thick double #32a1ce;
-  border-color: blue;
-  width: 200px;
+  /* border-color: green; */
+  width: 290px;
+  border-style: outset;
+  border-width: 15px;
+  border-top-color: #16DB93;
+  border-bottom-color: #A4036F;
+  border-left-color: #EFEA5A;
+  border-right-color: #FE5E41;
+  border-radius: 10px;
 }
-
+/*
 button {
   font-size: 16px;
   padding: 8px;
@@ -38,4 +42,4 @@ table, th, td {
 
 table {
   margin-top: 15px;
-}
+} */
