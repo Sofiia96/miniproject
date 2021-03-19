@@ -3,8 +3,12 @@ body {
 }
 
 h1 {
-  border: solid
-  border-color: blue
+}
+
+#h1border {
+  border: thick double #32a1ce;
+  border-color: blue;
+  width: 200px;
 }
 
 button {
